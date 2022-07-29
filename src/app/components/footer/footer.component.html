@@ -1,0 +1,28 @@
+<footer>
+<div class="container">
+  <div class="logo_block">
+    <img *ngFor="let item of logo" src="{{item.img}}" alt="No images">
+  </div>
+  <ul class="footer_list_block">
+    <li class="footer_list" *ngFor="let item of list1">
+      <a class="footer_link" routerLink="{{item.routerlink}}">{{item.text}}</a>
+    </li>
+  </ul>
+  <ul class="footer_list_block">
+    <li class="footer_list" *ngFor="let item of list2">
+      <a class="footer_link" routerLink="{{item.routerlink}}">{{item.text}}</a>
+    </li>
+  </ul>
+  <div class="footer_contact_block">
+    <div *ngFor="let item of address">
+      <img src="{{item.img}}" alt="No images">
+      <span>{{item.text}}</span>
+    </div>
+    <div class="social_links">
+      <a href="https://www.linkedin.com/" class="in"></a>
+      <a href="https://www.facebook.com/" class="fb"></a>
+      <a href="https://www.instagram.com/" class="inst"></a>
+    </div>
+  </div>
+</div>
+</footer>

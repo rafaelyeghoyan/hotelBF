@@ -1,0 +1,716 @@
+{
+  "header_addres": [
+    {
+      "id": 1,
+      "addres_icon": "./assets/img/map-pins%201.png",
+      "addres_text": "Address 1"
+    },
+    {
+      "id": 2,
+      "addres_icon": "./assets/img/brand-gmail%201.png",
+      "addres_text": "hotel@gmail.com"
+    },
+    {
+      "id": 3,
+      "addres_icon": "./assets/img/Vector.png",
+      "addres_text": "+960 20 30 50"
+    }
+  ],
+  "header_logo": [
+    {
+      "id": 1,
+      "logoSrc": "./assets/img/Group%202.png"
+    }
+  ],
+  "header_manue": [
+    {
+      "id": 1,
+      "routerLink": "/home",
+      "text": "Home"
+    },
+    {
+      "id": 2,
+      "routerLink": "/home",
+      "text": "About"
+    },
+    {
+      "id": 3,
+      "routerLink": "/rooms",
+      "text": "Rooms"
+    },
+    {
+      "id": 4,
+      "routerLink": "/service",
+      "text": "Service"
+    },
+    {
+      "id": 5,
+      "routerLink": "/home",
+      "text": "Contacts"
+    }
+  ],
+  "hotel_list": [
+    {
+      "id": 1,
+      "img": "./assets/img/Rectangle%2039.png",
+      "star": "assets/img/Star.png",
+      "text": "London Hotel",
+      "routerlink": "/rooms"
+    },
+    {
+      "id": 2,
+      "img": "./assets/img/Rectangle%2044.png",
+      "star": "assets/img/Star.png",
+      "text": "New York Hotel",
+      "routerlink": "/rooms"
+    },
+    {
+      "id": 3,
+      "img": "./assets/img/Rectangle%2045.png",
+      "star": "assets/img/Star.png",
+      "text": "Paris Hotel",
+      "routerlink": "/rooms"
+    },
+    {
+      "id": 4,
+      "img": "./assets/img/Rectangle%2039.png",
+      "star": "assets/img/Star.png",
+      "text": "Barcelon Hotel",
+      "routerlink": "/rooms"
+    },
+    {
+      "id": 5,
+      "img": "./assets/img/Rectangle%2044.png",
+      "star": "assets/img/Star.png",
+      "text": "Rome Hotel",
+      "routerlink": "/rooms"
+    },
+    {
+      "id": 6,
+      "img": "./assets/img/Rectangle%2045.png",
+      "star": "assets/img/Star.png",
+      "text": "Italy Hotel",
+      "routerlink": "/rooms"
+    }
+  ],
+  "hotel_list_2": [
+    {
+      "id": 1,
+      "img": "./assets/img/1.png"
+    },
+    {
+      "id": 2,
+      "img": "./assets/img/2.png"
+    },
+    {
+      "id": 3,
+      "img": "./assets/img/3.png"
+    },
+    {
+      "id": 4,
+      "img": "./assets/img/4.png"
+    },
+    {
+      "id": 5,
+      "img": "./assets/img/5.png"
+    },
+    {
+      "id": 6,
+      "img": "./assets/img/6.png"
+    },
+    {
+      "id": 7,
+      "img": "./assets/img/3.png"
+    },
+    {
+      "id": 8,
+      "img": "./assets/img/4.png"
+    },
+    {
+      "id": 9,
+      "img": "./assets/img/4.png"
+    },
+    {
+      "id": 10,
+      "img": "./assets/img/5.png"
+    },
+    {
+      "id": 11,
+      "img": "./assets/img/6.png"
+    },
+    {
+      "id": 12,
+      "img": "./assets/img/4.png"
+    },
+    {
+      "id": 13,
+      "img": "./assets/img/5.png"
+    },
+    {
+      "id": 14,
+      "img": "./assets/img/6.png"
+    },
+    {
+      "id": 15,
+      "img": "./assets/img/3.png"
+    },
+    {
+      "id": 16,
+      "img": "./assets/img/4.png"
+    }
+  ],
+  "rooms_hotel_block": [
+    {
+      "id": 1,
+      "img": "assets/img/Rectangle%205.png",
+      "text": "Luxe",
+      "routerlink": "/room/1",
+      "routerlink_text": "Check details"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/Rectangle%204.png",
+      "text": "standard room",
+      "routerlink": "/room/1",
+      "routerlink_text": "Check details"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/Rectangle%206.png",
+      "text": "double room",
+      "routerlink": "/room/1",
+      "routerlink_text": "Check details"
+    }
+  ],
+  "service_hotel": [
+    {
+      "id": 1,
+      "img": "assets/img/Rectangle%2017.png",
+      "title": "Room Cleaning",
+      "price": "$50/month",
+      "list_1": "\uD83D\uDDF8 Hotel ut nisan the dure",
+      "list_2": "\uD83D\uDDF8 Orci miss natoque vasa ince",
+      "list_3": "× Clean sorem ipsum morbin"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/Rectangle%2018.png",
+      "title": "Drinks Included",
+      "price": "$30/month",
+      "list_1": "\uD83D\uDDF8 Hotel ut nisan the dure",
+      "list_2": "\uD83D\uDDF8 Orci miss natoque vasa ince",
+      "list_3": "× Clean sorem ipsum morbin"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/Rectangle%2021.png",
+      "title": "Room Breakfast",
+      "price": "$20/month",
+      "list_1": "\uD83D\uDDF8 Hotel ut nisan the dure",
+      "list_2": "\uD83D\uDDF8 Orci miss natoque vasa ince",
+      "list_3": "× Clean sorem ipsum morbin"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/Rectangle%2022.png",
+      "title": "Safe & Secure",
+      "price": "$12/month",
+      "list_1": "\uD83D\uDDF8 Hotel ut nisan the dure",
+      "list_2": "\uD83D\uDDF8 Orci miss natoque vasa ince",
+      "list_3": "× Clean sorem ipsum morbin"
+    }
+  ],
+  "footer_logo": [
+    {
+      "id": 1,
+      "img": "assets/img/Group%203.png"
+    }
+  ],
+  "footer_addres": [
+    {
+      "id": 1,
+      "img": "./assets/img/map-pins%202.png",
+      "text": "Address 1"
+    },
+    {
+      "id": 2,
+      "img": "./assets/img/brand-gmail%202.png",
+      "text": "hotel@gmail.com"
+    },
+    {
+      "id": 3,
+      "img": "./assets/img/phone.png",
+      "text": "+960 20 30 50"
+    }
+  ],
+  "footer_list_1": [
+    {
+      "id": 1,
+      "text": "Home",
+      "routerlink": "/home"
+    },
+    {
+      "id": 2,
+      "text": "About",
+      "routerlink": "/home"
+    },
+    {
+      "id": 3,
+      "text": "Rooms",
+      "routerlink": "/rooms"
+    },
+    {
+      "id": 4,
+      "text": "Home",
+      "routerlink": "/Service"
+    }
+  ],
+  "footer_list_2": [
+    {
+      "id": 1,
+      "text": "Securety",
+      "routerlink": "/home"
+    },
+    {
+      "id": 2,
+      "text": "About",
+      "routerlink": "/home"
+    },
+    {
+      "id": 3,
+      "text": "Adult",
+      "routerlink": "/home"
+    },
+    {
+      "id": 4,
+      "text": "Check now",
+      "routerlink": "/home"
+    }
+  ],
+  "slide_1": [
+    {
+      "id": 1,
+      "src": "assets/img/1.1.png"
+    },
+    {
+      "id": 2,
+      "src": "assets/img/1.2.png"
+    },
+    {
+      "id": 3,
+      "src": "assets/img/1.3.png"
+    },
+    {
+      "id": 4,
+      "src": "assets/img/1.2.png"
+    },
+    {
+      "id": 5,
+      "src": "assets/img/1.3.png"
+    },
+    {
+      "id": 6,
+      "src": "assets/img/1.1.png"
+    },
+    {
+      "id": 7,
+      "src": "assets/img/1.3.png"
+    },
+    {
+      "id": 8,
+      "src": "assets/img/1.2.png"
+    },
+    {
+      "id": 9,
+      "src": "assets/img/1.1.png"
+    }
+  ],
+  "slide_2": [
+    {
+      "id": 1,
+      "src": "assets/img/2.1.png"
+    },
+    {
+      "id": 2,
+      "src": "assets/img/2.2.png"
+    },
+    {
+      "id": 3,
+      "src": "assets/img/2.3.png"
+    },
+    {
+      "id": 4,
+      "src": "assets/img/2.2.png"
+    },
+    {
+      "id": 5,
+      "src": "assets/img/2.3.png"
+    },
+    {
+      "id": 6,
+      "src": "assets/img/2.1.png"
+    },
+    {
+      "id": 7,
+      "src": "assets/img/2.3.png"
+    },
+    {
+      "id": 8,
+      "src": "assets/img/2.2.png"
+    },
+    {
+      "id": 9,
+      "src": "assets/img/2.1.png"
+    }
+  ],
+  "slide_3": [
+    {
+      "id": 1,
+      "src": "assets/img/3.1.png"
+    },
+    {
+      "id": 2,
+      "src": "assets/img/3.2.png"
+    },
+    {
+      "id": 3,
+      "src": "assets/img/3.3.png"
+    },
+    {
+      "id": 4,
+      "src": "assets/img/3.2.png"
+    },
+    {
+      "id": 5,
+      "src": "assets/img/3.3.png"
+    },
+    {
+      "id": 6,
+      "src": "assets/img/3.1.png"
+    },
+    {
+      "id": 7,
+      "src": "assets/img/3.3.png"
+    },
+    {
+      "id": 8,
+      "src": "assets/img/3.2.png"
+    },
+    {
+      "id": 9,
+      "src": "assets/img/3.1.png"
+    }
+  ],
+  "london_hotel_title": [
+    {
+      "id": 1,
+      "text": "Standard Room"
+    }
+  ],
+  "london_hotel_price": [
+    {
+      "id": 1,
+      "price": "50$"
+    }
+  ],
+  "london_hotel_room": [
+    {
+      "id": 1,
+      "img": "assets/img/bed.png",
+      "text": "2 Bed"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/rule.png",
+      "text": "50 sqm"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/both.png",
+      "text": "2 Bathroom"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/puple.png",
+      "text": "4 Guest"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/trees.png",
+      "text": "Room View"
+    }
+  ],
+  "london_room_amet": [
+    {
+      "id": 1,
+      "img": "assets/img/rest.png",
+      "text": "Restaurant"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/wifi.png",
+      "text": "Free Wifi"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/tel.png",
+      "text": "Phone"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/dryer.png",
+      "text": "Hair Dryer"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/condit.png",
+      "text": "Conditioning"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/spa.png",
+      "text": "Spa"
+    },
+    {
+      "id": 7,
+      "img": "assets/img/sweem.png",
+      "text": ">Swimming Pool"
+    },
+    {
+      "id": 8,
+      "img": "assets/img/parking.png",
+      "text": "Parking"
+    },
+    {
+      "id": 9,
+      "img": "assets/img/gym.png",
+      "text": "GYM"
+    },
+    {
+      "id": 10,
+      "img": "assets/img/tv.png",
+      "text": "TV"
+    }
+  ],
+  "home_page_map": [
+    {
+      "id": 1,
+      "img": "assets/img/fix.png",
+      "long": 43.845896891206635,
+      "lat": 40.792517518960985,
+      "text": "I’m flexible"
+    },
+    {
+      "id": 2,
+      "img": "assets/img/europe.png",
+      "long": 2.30958588905195,
+      "lat": 46.67680658672435,
+      "text": "Europe"
+    },
+    {
+      "id": 3,
+      "img": "assets/img/USA.png",
+      "long": 56.36453817245512,
+      "lat": 20.769295223238302,
+      "text": "Southeast Asia"
+    },
+    {
+      "id": 4,
+      "img": "assets/img/italy.png",
+      "long": 12.203278977002366,
+      "lat": 42.998124019622914,
+      "text": "Italy"
+    },
+    {
+      "id": 5,
+      "img": "assets/img/asia.png",
+      "long": -80.19547215446046,
+      "lat": 25.765695684149296,
+      "text": "United States"
+    },
+    {
+      "id": 6,
+      "img": "assets/img/arm.png",
+      "long": 0,
+      "lat": 0,
+      "text": "Armenia"
+    }
+  ],
+  "map_markers": [
+    {
+      "id": 1,
+      "long": 43.86107064905439,
+      "lat": 40.793367753638194
+    },
+    {
+      "id": 2,
+      "long": 43.846931063476084,
+      "lat": 40.78748616227199
+    },
+    {
+      "id": 3,
+      "long": 43.841291648395476,
+      "lat": 40.78944522451688
+    },
+    {
+      "id": 4,
+      "long":44.996062359775976,
+      "lat": 40.97382053440144
+    },
+    {
+      "id": 5,
+      "long":44.52451133276684,
+      "lat": 40.25793183612592
+    },
+    {
+      "id": 6,
+      "long":43.12631292978221,
+      "lat": 41.187439164793254
+    },
+    {
+      "id":7,
+      "long":57.68330482604254,
+      "lat": 19.624791043805363
+    },
+    {
+      "id": 8,
+      "long":58.716060990160244,
+      "lat": 20.483960863061803
+    },
+    {
+      "id": 9,
+      "long":58.8537337896863,
+      "lat": 20.685340274651956
+    },
+    {
+      "id":10,
+      "long":58.82792013977516,
+      "lat": 20.642401656445955
+    },
+    {
+      "id": 11,
+      "long": 57.629019510569044,
+      "lat": 19.673116529842247
+    },
+    {
+      "id": 12,
+      "long": 12.24031446582165,
+      "lat": 43.50772499609563
+    },
+    {
+      "id": 13,
+      "long": 12.663288091841025,
+      "lat":44.03330794817931
+    },
+    {
+      "id": 14,
+      "long":11.982135759030603,
+      "lat":43.30819180205724
+    },
+    {
+      "id":15,
+      "long":12.94343945452918,
+      "lat": 43.90679776926234
+    },
+    {
+      "id":16,
+      "long":12.94343945452918,
+      "lat": 43.90679776926234
+    },
+    {
+      "id":17,
+      "long":11.151948481419602,
+      "lat": 42.56977120497111
+    },
+    {
+      "id":18,
+      "long":12.710494959475344,
+      "lat": 42.72986551981417
+    },
+    {
+      "id":19,
+      "long":13.545455883565529,
+      "lat": 42.95541742333327
+    },
+    {
+      "id":20,
+      "long":2.5640034012112727,
+      "lat": 46.72656630475785
+    },
+    {
+      "id":21,
+      "long":2.2769781869310775,
+      "lat": 46.67771006444283
+    },
+    {
+      "id":22,
+      "long":-0.9729354337807521,
+      "lat": 45.83549725582481
+    },
+    {
+      "id":23,
+      "long": 0.17513583684326275,
+      "lat": 45.78189063738376
+    },
+    {
+      "id":24,
+      "long":-80.29337896808491,
+      "lat": 25.71170305122575
+    },
+    {
+      "id":25,
+      "long":-80.16284158424709,
+      "lat": 25.699275403131427
+    },
+    {
+      "id":26,
+      "long":-80.33843139739163,
+      "lat": 25.644892268728974
+    },
+    {
+      "id":27,
+      "long":-80.3810034181923,
+      "lat": 25.743892189568818
+    },
+    {
+      "id":28,
+      "long":-80.28055836627959,
+      "lat": 25.74427645529283
+    },
+    {
+      "id":29,
+      "long":-81.73291865106701,
+      "lat": 25.93031132756754
+    },
+    {
+      "id":30,
+      "long":-81.72857165449922,
+      "lat": 25.923939515153496
+    },
+    {
+      "id":31,
+      "long":-77.77674255585148,
+      "lat": 24.830365252956664
+    },
+    {
+      "id":32,
+      "long":-77.52534748532186,
+      "lat": 25.15204598442748
+    },
+    {
+      "id":33,
+      "long": 43.304213708609275,
+      "lat": 41.016019012275855
+    },
+    {
+      "id":34,
+      "long": 41.62033409667215,
+      "lat": 41.634527187978634
+    },
+    {
+      "id":35,
+      "long": 41.565386499773524,
+      "lat": 41.56483267005499
+    }
+  ]
+}

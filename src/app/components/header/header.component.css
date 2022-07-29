@@ -1,0 +1,296 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+nav{
+  background-image: url("src/assets/img/Rectangle 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 651px;
+}
+.gradient_block{
+  background-image: linear-gradient(black,#ffffff00);
+  height: 170px;
+}
+.contact_block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 22px;
+}
+.contact_block div span {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: white;
+}
+.border{
+  width: 676px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #5F7161;
+  margin-left: auto;
+  border:none!important;
+}
+.contact_block div{
+  display: flex;
+  align-self: center;
+}
+.contact_block div img{
+  height: 24px;
+  width: 24px;
+  margin-right: 11px;
+}
+.contact_block div:nth-child(2) img{
+  height: 28px;
+  width: 28px;
+}
+.contact_block div:nth-child(2) img,.contact_block div:nth-child(3) img{
+  margin-left: 87px;
+}
+.logo_block{
+  width: 121px;
+}
+.logo_block img{
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+}
+.flex_block{
+  display: flex;
+  justify-content: space-between;
+}
+.manue_block{
+  order: 2;
+}
+.logo_block{
+  order: 1;
+}
+ul.manue_list{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+ul.manue_list li{
+  list-style-type: none;
+  margin-right: 70px;
+}
+ul.manue_list li:last-child{
+  margin-right: 0;
+}
+ul.manue_list li:nth-child(3){
+  margin-right: 72px;
+}
+ul.manue_list li:nth-child(4){
+  margin-right: 71px;
+}
+ul.manue_list li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+form{
+  display: flex;
+  align-items: center;
+  padding-top: 310px;
+  justify-content: flex-end;
+}
+form button, select {
+  background: #FFFBE9;
+  border: 1px solid black;
+  height: 64px;
+}
+form button[type='submit']{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  text-align: center;
+  width: 271px;
+  background: #4E4F2F;
+  color: #FFFBE9;
+  cursor: pointer;
+}
+form .anywere{
+  width: 153px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  text-align: center;
+  cursor: pointer;
+}
+form .date{
+  width: 190px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+form .date:before{
+  content: url("src/assets/img/calendar.png");
+  font-size: 15px;
+  position: absolute;
+  top: 22px;
+  bottom: 18px;
+  left: 154px;
+  cursor: pointer;
+}
+form .select_part{
+  display: inline-block;
+  position: relative;
+}
+form .select{
+  width: 187px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  text-align: center;
+  padding-right: 15px;
+  appearance: none;
+  cursor: pointer;
+}
+form div.down_icon{
+  height: 30px;
+  position: absolute;
+  right: 15px;
+  bottom: 6px;
+}
+form div.down_icon:before{
+  content: "﹀";
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+::ng-deep .mat-form-field-flex ng-tns-c68-0{
+  margin-top: 19px!important;
+}
+::ng-deep .mat-datepicker-content {
+  background: rgba(255, 251, 233)!important;
+  opacity: 1!important;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: 0!important;
+  text-align: center;
+}
+::ng-deep .mat-input-element {
+  font: inherit;
+  background: transparent;
+  color: currentColor;
+  border: none;
+  outline: none;
+  padding: 7px 3px 0px 13px;
+}
+::ng-deep .mat-form-field {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #FFFBE9;
+  border: 1px solid black;
+  height: 64px;
+  width: 190px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+::ng-deep .mat-calendar-table-header th span:last-child{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #347474!important;
+}
+::ng-deep .mat-form-field-label{
+  font-family: 'Playfair Display' ,cursive;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  text-align: center;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-infix {
+  padding: 0;
+}
+::ng-deep .mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .mat-form-field-appearance-fill.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label {
+  transform: translateY(-8px) scale(0.5);
+  width: 133.3333333333%;
+}
+::ng-deep .mat-form-field-empty.mat-form-field-label, .mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+  display: block;
+  font-size: 24px;
+}
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-label {
+  top: 17px;
+}
+::ng-deep .mat-form-field-prefix, .mat-form-field-suffix {
+  white-space: nowrap;
+  flex: none;
+  position: relative;
+  top: 5px;
+}
+::ng-deep .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon-button {
+  width: 0;
+  height: 0;
+}
+::ng-deep .mat-form-field-label-wrapper {
+  left: 15px;
+  top: -9px;
+}
+::ng-deep .mat-form-field-underline {
+  width: 0!important;
+}
+::ng-deep .mat-form-field-wrapper {
+  padding-bottom: 25px!important;
+}
+::ng-deep  .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon-button:before{
+  content: url("src/assets/img/calendar.png");
+  position: absolute;
+  top: 5px;
+}
+.hidden_block {
+  background: #faf5e1;
+  padding: 13px 27px 31px 13px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 355px;
+}
+.hidden_block .col_block{
+  width: 92px;
+  margin-left: 8px;
+}
+.hidden_block .col_block h6{
+  margin: 0;
+}
+.hidden_block .col_block img{
+  display: inline-block;
+  width: 92px;
+  height: 78px;
+  cursor: pointer;
+}
+.button{
+  width: 153px;
+  height: 64px;
+  overflow: hidden;
+}

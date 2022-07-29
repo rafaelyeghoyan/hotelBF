@@ -1,0 +1,18 @@
+<app-header></app-header>
+<div class="_container">
+  <h1>Hotels list</h1>
+  <div class="rows_block">
+    <div class="row_img">
+      <div class="column_img" *ngFor="let item of hotelList2">
+        <img src="{{item.img}}" alt="No Images">
+        <span></span>
+      </div>
+    </div>
+    <div class="row_map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d752557.9644968385!2d44.99512023622856!3d40.19247773312963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1658235821450!5m2!1sru!2s"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,6 @@
+<div class="map_block">
+  <agm-map [latitude]='lat' [longitude]='long' >
+    <agm-marker *ngFor="let item of marker" [latitude]='item.lat' [longitude]='item.long'>
+    </agm-marker>
+  </agm-map>
+</div>

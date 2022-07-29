@@ -1,0 +1,56 @@
+<nav>
+  <div class="gradient_block">
+  <div class="container">
+    <div class="flex_block">
+    <div class="manue_block">
+    <div class="contact_block">
+    <div *ngFor="let item of headerAddres">
+      <img src="{{item.addres_icon}}" alt="No images">
+      <span>{{item.addres_text}}</span>
+    </div>
+    </div>
+    <div class="border"></div>
+      <ul class="manue_list">
+        <li *ngFor="let manu of headerManue">
+          <a routerLink="{{manu.routerLink}}">{{manu.text}}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="logo_block">
+      <a routerLink="/home">
+        <img  *ngFor="let icon of heaerLogo" src="{{icon.logoSrc}}" alt="No Image">
+      </a>
+    </div>
+    </div>
+    <form action="#" method="post">
+      <div class="button">
+      <button (click)="openMap()" class="anywere"  type="button">AnyWhere</button>
+        <div class="big_block">
+          <div class="hidden_block">
+            <div class="col_block" *ngFor="let item of map" (click)="closeMap(item.text,item.id)">
+              <img src="{{item.img}}" alt="No image">
+              <h6>{{item.text}}</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <app-date-picker></app-date-picker>
+      <app-checkout></app-checkout>
+      <div class="select_part">
+      <select class="select">
+        <option selected>Room</option>
+      </select>
+      <div class="down_icon"></div>
+      </div>
+      <div class="select_part">
+      <select class="select">
+        <option selected>Adult</option>
+      </select>
+      <div class="down_icon"></div>
+      </div>
+      <button type="submit">Check Now</button>
+    </form>
+  </div>
+  </div>
+</nav>
+<app-map [value]="langlat"></app-map>

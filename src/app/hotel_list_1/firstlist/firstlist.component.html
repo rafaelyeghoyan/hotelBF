@@ -1,0 +1,21 @@
+<app-header></app-header>
+<h1>Hotels list</h1>
+<div class="container">
+  <div class="room_columns">
+    <div class="column" *ngFor="let list of hotelList">
+      <div class="img_part">
+        <img src="{{list.img}}" alt="No Image">
+      </div>
+      <div class="text_part">
+        <span>
+          <img src="{{list.star}}" alt="No Image">
+        </span>
+        <p><a routerLink="{{list.routerlink}}">{{list.text}}</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="show_block">
+    <a routerLink="/home/1" class="show_link">Show all</a>
+  </div>
+</div>
+<app-footer></app-footer>

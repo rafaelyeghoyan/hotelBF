@@ -1,0 +1,80 @@
+._container {
+  margin-left: 49px;
+  margin-right: 33px;
+  margin-bottom: 49px;
+}
+
+h1 {
+  text-align: center;
+  margin: 100px 0 49px;
+  font-family: 'Gilda Display', cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4E4F2F;
+}
+
+.row_img {
+  height: 930px;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 755px;
+  padding-right: 109px;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F1F1;
+  border-radius:50%;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius:50%;
+
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.column_img {
+  position: relative;
+}
+
+.column_img span {
+  height: 30px;
+  display: inline-block;
+  background-image: url("src/assets/img/Group 540.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 20px;
+  left: 148px;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+.rows_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row_map iframe {
+  width: 647px;
+  height: 929px;
+}
+
+.row_img[_ngcontent-snt-c110] {
+  width: 755px;
+  height: 930px;
+  overflow: scroll;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 109px;
+}

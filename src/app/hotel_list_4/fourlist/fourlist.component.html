@@ -1,0 +1,141 @@
+<header>
+  <div class="gradeint_block">
+    <div class="container">
+      <div class="logo_block">
+        <a routerLink="/home">
+          <img src="assets/img/logo2.png" alt="No images">
+        </a>
+      </div>
+      <nav>
+        <div class="address_block">
+          <ul>
+            <li>
+              <a>
+                <img src="assets/img/map-pins%201.png" alt="No images">
+                <span>Address 1</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="assets/img/brand-gmail%201.png" alt="No images">
+                <span>hotel@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a>
+                <img src="assets/img/Vector.png" alt="No images">
+                <span>+960 20 30 50</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="line_block"></div>
+        <div class="manue_block">
+          <ul>
+            <li>
+              <a routerLink="/home">
+                Home
+              </a>
+            </li>
+            <li>
+              <a routerLink="/london">
+                About
+              </a>
+            </li>
+            <li>
+              <a routerLink="/home/1">
+                Rooms
+              </a>
+            </li>
+            <li>
+              <a routerLink="/home">
+                Service
+              </a>
+            </li>
+            <li>
+              <a routerLink="/rooms">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <h1>Standart Room</h1>
+</header>
+<section class="page_contend">
+  <div class="page_container">
+    <h2>London hotel</h2>
+    <app-slider></app-slider>
+    <div class="titile_block">
+    <h3 *ngFor="let item of titleRoom">{{item.text}}</h3>
+    <span *ngFor="let item of roomPrice">{{item.price}}</span>
+    </div>
+    <ul class="in_room_block">
+      <li *ngFor="let item of aboutroom">
+        <img src="{{item.img}}" alt="No image">
+        <span>{{item.text}}</span>
+      </li>
+    </ul>
+    <p>
+      Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+      the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+      A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic
+      country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about
+      the blind texts it is an almost unorthographic life One day however
+      a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+    </p>
+    <p style="padding-bottom: 50px;">The Big Oxmox advised her not to do so, because there were thousands of bad Commas,
+      wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia,
+      put her initial into the belt and made herself on the way.
+      When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown</p>
+    <h3>Room Amenities</h3>
+    <div class="room_amet">
+      <div class="col_block" *ngFor="let item of roomAmet">
+        <div class="img">
+          <img src="{{item.img}}" alt="No images">
+        </div>
+        <h3>{{item.text}}</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="index_block">
+  <div class="fixed_block">
+    <h5>Book Your Room</h5>
+    <div class="form_block">
+      <app-date-picker></app-date-picker>
+      <app-checkout>
+      </app-checkout>
+      <mat-form-field appearance="fill">
+        <mat-label>Room</mat-label>
+        <mat-select disableRipple value="1">
+          <mat-option value="1" aria-selected="true">1</mat-option>
+          <mat-option value="2">2</mat-option>
+          <mat-option value="3">3</mat-option>
+          <mat-option value="4">4</mat-option>
+          <mat-option value="5">5</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Guests</mat-label>
+        <mat-select disableRipple value="2">
+          <mat-option value="1" >1</mat-option>
+          <mat-option value="2">2</mat-option>
+          <mat-option value="3">3</mat-option>
+          <mat-option value="4">4</mat-option>
+          <mat-option value="5">5</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button type="submit">Book NOW</button>
+    </div>
+  </div>
+</div>
+<div class="map">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34986377.77313116!2d96.74066122974119!3d50.470306036089276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1658760008675!5m2!1sru!2s"
+    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<app-footer></app-footer>

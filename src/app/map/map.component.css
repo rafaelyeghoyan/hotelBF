@@ -1,0 +1,10 @@
+.map_block agm-map{
+  width: 1260px;
+  height: 485px;
+}
+.map_block{
+  position: absolute;
+  top: 1596px;
+  right: 0;
+  left: 8%;
+}

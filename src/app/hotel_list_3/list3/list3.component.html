@@ -1,0 +1,264 @@
+<app-header></app-header>
+<div class="container">
+  <h2 class="h2">About London Hotel</h2>
+  <div class="london_hotel_block">
+  <div class="text_block">
+    <div class="txet_img_block">
+    <p class="london_block_paragraph">Welcome to the best five-star deluxe hotel in London. Hotel elementum sesue the aucan vestibulum
+      aliquam justo in sapien rutrum volutpat. Donec in quis the pellentesque velit. Donec id velit ac arcu posuere blane.
+    </p>
+    <p  class="london_block_paragraph">Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue the aucan ligula. Orci varius natoque penatibus
+      et magnis dis parturient monte nascete ridiculus mus nellentesque habitant morbine.</p>
+    </div>
+    <img src="assets/img/london%20hotel.png" alt="No image">
+  </div>
+  <div class="img_block">
+    <img src="assets/img/london%20hotel%201.png" alt="No image">
+  </div>
+  </div>
+  <div class="rooms_hotel_block">
+    <h2>Rooms hotel</h2>
+    <div class="rooms_block">
+      <div class="block_column" *ngFor="let item of roomHotel">
+        <img src="{{item.img}}" alt="No image">
+        <p>{{item.text}}</p>
+        <div>
+        <a routerLink="{{item.routerlink}}">{{item.routerlink_text}}  &#10230;</a>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="standart_room_block">
+    <div class="carusel">
+      <a (click)="prew_1()" class="prew"><img src="assets/img/prew.png" alt="No images"></a>
+      <div class="main">
+        <div class="img_block_">
+          <div   *ngFor="let src of data_1" class="col_block">
+            <div class="img_part_block">
+              <img src="{{src.src}}" alt="No image">
+              <p><span><a>From 150$</a></span></p>
+            </div>
+            <div class="text_block">
+              <p class="block_title">Standard room</p>
+              <ul>
+                <li>
+                  <img src="assets/img/bed.png" alt="No images">
+                  <span>2 Bed</span>
+                </li>
+                <li>
+                  <img src="assets/img/rule.png" alt="No images">
+                  <span>50 sqm</span>
+                </li>
+                <li>
+                  <img src="assets/img/both.png" alt="No images">
+                  <span>2 Bathroom</span>
+                </li>
+              </ul>
+              <div class="read_more">
+                <a routerLink="/room/1">Book now <img src="assets/img/shortright.png" alt="No images"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a (click)="next_1()"  class="next"><img src="assets/img/prew.png" alt="No images"></a>
+    </div>
+  </div>
+  <div class="double_room_block">
+    <div class="carusel">
+      <a (click)="prew_2()" class="prew"><img src="assets/img/prew.png" alt="No images"></a>
+      <div class="main">
+        <div class="img_block_">
+          <div   *ngFor="let src of data_2" class="col_block">
+            <div class="img_part_block">
+              <img src="{{src.src}}" alt="No image">
+              <p><span><a>From 150$</a></span></p>
+            </div>
+            <div class="text_block">
+              <p class="block_title">Standard room</p>
+              <ul>
+                <li>
+                  <img src="assets/img/bed.png" alt="No images">
+                  <span>2 Bed</span>
+                </li>
+                <li>
+                  <img src="assets/img/rule.png" alt="No images">
+                  <span>50 sqm</span>
+                </li>
+                <li>
+                  <img src="assets/img/both.png" alt="No images">
+                  <span>2 Bathroom</span>
+                </li>
+              </ul>
+              <div class="read_more">
+                <a routerLink="/room/1">Book now <img src="assets/img/shortright.png" alt="No images"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a (click)="next_2()"  class="next"><img src="assets/img/prew.png" alt="No images"></a>
+    </div>
+  </div>
+  <div class="luxe_room_block">
+    <div class="carusel">
+      <a (click)="prew_3()" class="prew"><img src="assets/img/prew.png" alt="No images"></a>
+      <div class="main">
+        <div class="img_block_">
+          <div   *ngFor="let src of data_3" class="col_block">
+            <div class="img_part_block">
+              <img src="{{src.src}}" alt="No image">
+              <p><span><a>From 150$</a></span></p>
+            </div>
+            <div class="text_block">
+              <p class="block_title">Standard room</p>
+              <ul>
+                <li>
+                  <img src="assets/img/bed.png" alt="No images">
+                  <span>2 Bed</span>
+                </li>
+                <li>
+                  <img src="assets/img/rule.png" alt="No images">
+                  <span>50 sqm</span>
+                </li>
+                <li>
+                  <img src="assets/img/both.png" alt="No images">
+                  <span>2 Bathroom</span>
+                </li>
+              </ul>
+              <div class="read_more">
+                <a routerLink="/room/1">Book now <img src="assets/img/shortright.png" alt="No images"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a (click)="next_3()"  class="next"><img src="assets/img/prew.png" alt="No images"></a>
+    </div>
+  </div>
+  <div class="servic_hotel_block">
+    <h2>Service hotel</h2>
+    <p>The best prices for your relaxing vacation.
+      The utanislen quam nestibulum ac quame odion elementum sceisue the aucan.
+      Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus
+      mus nellen etesque habitant morbine.</p>
+     <div class="block_row">
+       <div class="block_column" *ngFor="let item of serviceHotel">
+         <img src="{{item.img}}" alt="No image">
+         <div class="tex_list_block">
+         <h5>{{item.title}}</h5>
+         <span>{{item.price}}</span>
+         <ul style="padding: 13px 0 0 0; margin: 0;">
+           <li style="list-style-type: none">{{item.list_1}}</li>
+           <li style="list-style-type: none">{{item.list_2}}</li>
+           <li style="list-style-type: none">{{item.list_3}}</li>
+         </ul>
+         </div>
+       </div>
+     </div>
+  </div>
+<div class="user_questions_block">
+  <h2>Whay Client’s say?</h2>
+<p>The best prices for your relaxing vacation. The utanislen quam nestibulum ac quame odion elementum sceisue the aucan.
+  Orci varius natoque penatibus et magnis disney parturient monte nascete ridiculus mus nellen etesque habitant morbine.</p>
+  <div class="sub_container">
+    <div class="img_block">
+      <img src="assets/img/girl.png" alt="No Images">
+    </div>
+    <div class="text_block_">
+    <div class="star_block">
+      <img src="assets/img/Star.png" alt="No images">
+    </div>
+    <h6>Julia Smith</h6>
+    <p>Administrator</p>
+    </div>
+  </div>
+</div>
+<section>
+  <h2>Check availability</h2>
+  <form>
+    <div>
+    <div>
+      <label>Check in</label>
+    </div>
+      <div class="date">
+      <mat-form-field appearance="fill">
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label>
+      Night
+        </label>
+    </div>
+      <div class="select_block">
+      <mat-form-field appearance="fill" class="select">
+        <mat-select disableRipple value="1">
+          <mat-option value="1" aria-selected="true">1</mat-option>
+          <mat-option value="2">2</mat-option>
+          <mat-option value="3">3</mat-option>
+          <mat-option value="4">4</mat-option>
+          <mat-option value="5">5</mat-option>
+        </mat-select>
+      </mat-form-field>
+      </div>
+    </div>
+    <div>
+    <div>
+      <label>Check in</label>
+    </div>
+      <div class="date">
+      <mat-form-field appearance="fill">
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      </div>
+    </div>
+    <div>
+    <div>
+      <label>
+      Adults
+      </label>
+    </div>
+      <div class="select_block">
+      <mat-form-field appearance="fill"  class="select">
+        <mat-select disableRipple value="1">
+          <mat-option value="1" aria-selected="true">1</mat-option>
+          <mat-option value="2">2</mat-option>
+          <mat-option value="3">3</mat-option>
+          <mat-option value="4">4</mat-option>
+          <mat-option value="5">5</mat-option>
+        </mat-select>
+      </mat-form-field>
+      </div>
+    </div>
+    <div>
+    <div>
+      <label>
+      Children
+      </label>
+    </div>
+    <div class="select_block">
+      <mat-form-field appearance="fill"  class="select">
+        <mat-select disableRipple value="1">
+          <mat-option value="1" aria-selected="true">1</mat-option>
+          <mat-option value="2">2</mat-option>
+          <mat-option value="3">3</mat-option>
+          <mat-option value="4">4</mat-option>
+          <mat-option value="5">5</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    </div>
+    <div>
+      <button>Check Availability</button>
+    </div>
+  </form>
+</section>
+<app-footer></app-footer>
